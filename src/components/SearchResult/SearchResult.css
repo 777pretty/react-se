@@ -1,0 +1,26 @@
+.SearchResult {
+    width: 900px;
+    padding: 16px;
+    text-align: left;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 80%;
+}
+
+.SearchResult:hover,
+.SearchResult:active {
+    background-color: #C0DDF5;
+}
+
+.Author {
+    margin: 16px 0;
+    color: rgb(105, 105, 105);
+}
+
+.Decription {
+    margin: 16px 0;
+    color: rgb(51, 51, 51);
+}

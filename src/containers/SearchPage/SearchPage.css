@@ -1,0 +1,63 @@
+.Posts {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.SearchPage {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: center;
+}
+
+.SearchPage label {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.SearchPage input,
+.SearchPage textarea,
+.SearchPage select {
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline: none;
+    font: inherit;
+    margin: auto;
+}
+
+.SearchPage button {
+    margin: 5px 0;
+    padding: 10px;
+    font: inherit;
+    border: 1px solid #fa923f;
+    background-color: transparent;
+    color: #fa923f;
+    cursor: pointer;
+}
+
+.SearchPage button:hover,
+.SearchPage button:active {
+    color: white;
+    background-color: #fa923f;
+}
+
+.PageButton {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.PageButton button:hover,
+.PageButton button:active {
+    color: white;
+    background-color: #fa923f;
+}
